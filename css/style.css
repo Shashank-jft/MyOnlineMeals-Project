@@ -1,0 +1,221 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --navbar-height:59px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar{
+    top:0%;
+    position: absolute;
+}
+
+#logo{
+        margin: -9px -7px;
+}
+
+
+#logo img{
+    height: 10vh;
+    width:12vh;
+    margin: 25px 15px;
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#navbar::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color:white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 23px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    
+}
+#home::before{
+    width: 120%;
+    height: 70%;
+    top: 0px;
+    left: 0px;
+    content: "";
+    background:url(../bg2.jpg) no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown;
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 34px;
+    margin: 3px 6px;
+    height: 70vh;
+    width:30vw;
+    
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+}
+
+#service .box img{
+    height: 50px;
+    }
+img{
+    height: 40vh;
+    width: 30vw;
+    display: block;
+    margin: auto;
+}
+
+#contact{
+    position: relative;
+}
+
+#contact ::before{
+    content: "";
+    position: absolute;
+   
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.7;
+
+}
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8rem;
+    padding:12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.8rem;
+    padding:12px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 6px 20px;
+    margin: 17px;
+    font-size: 1.5rem;
+    cursor:pointer;
+
+}
+
+.centre{
+    text-align: center;
+}
+
+#client-section{
+    height: 344px;
+
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg1.jpg')  no-repeat center center/cover;;
+    width: 100%;
+    height: 54%;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clients img{
+    height:124px;
+    width:84px
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+
+}
+
+
+.client-item{
+    padding: 34px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 4px 23px;
+}
